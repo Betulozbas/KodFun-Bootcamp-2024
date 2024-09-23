@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <h1>JavaScript Öğreniyorum</h1>
+    <p>
+        <!-- Buranın içerisini js ile değiştirebilir miyiz? -->
+    </p>
+    <script>
+        //burası js bölgesi.
+        //dom ağacı document object model (dökümanın nesne modeli) 
+        //javasc//document nesnesi üzerinden mevcut sayfadaki dökümanın tüm elementlerine erişebiliriz(belirli yöntemlerle)
+        //sayfadaki ilk p elementinin eriş ve içindeki metni değiştir
+
+        // progrmalama:
+        // Komutların belli sırada belirli bir amaç içn çalıştırılması(algoritma ile)
+        //KOMUTLAR insan diline yakın bir dille bilgisayara iş yapması için fısıldamaktır.
+        //burası javascript bölgesi
+        //komutlar sırayla çalışır burada
+        let İlkParag =  document.querySelector("p")
+
+
+        İlkParag.textContent = "biz kimseyi yarı yolda bırakmadık. Onlar müsait bir yerde indiler... -Bir kamyon arkası sözü";
+
+        İlkParag.style.color = "purple";
+
+        document.body.style.background = "linear-gradient(to right,orange,white)";
+        
+        
+        //PROGRAMLAMA 
+        //komutların belli bir amaç için çalıştırılması(algoritma ile)
+        //KOMUTLAR İNSAN DİLİ,NE YAKIN BİR DİLLE BİLGİSAYARA İŞ YAPMASI İÇİN FISILDAR..
+        // alert("hoop ... palaaaa!!!");
+        // alert("Hoşgeldin  :)");
+    </script>
+</body>
+
+</html>
