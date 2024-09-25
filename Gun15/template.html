@@ -49,6 +49,8 @@
         .col1 {
             flex: 2;
             margin: 0 1rem;
+            width: 100%;
+            
         }
 
         .col2 {
@@ -62,6 +64,8 @@
             min-height: 150px;
             /* SİL */
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            width: 100%;
         }
 
         footer {
@@ -77,6 +81,12 @@
                 flex-direction: column;
             }
         }
+        button{
+            align-items: flex-start;
+            background-color: rgb(255,255,255);
+            border-bottom-color: rgb(204, 204, 204);
+            border-bottom-style: solid;
+        }
     </style>
 </head>
 
@@ -91,7 +101,14 @@
     </header>
     <main>
         <div class="col1">
-            <div class="box"></div>
+            
+            <div class="box">
+                <img src="https://picsum.photos/500" alt="">
+                <h3>TITLE HEADING</h3>
+                <h5>Title description, April 7, 2014</h5>
+                <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                <button><b>READ MORE</b></button> 
+            </div>
             <div class="box"></div>
         </div>
         <div class="col2">
@@ -100,7 +117,14 @@
             <div class="box"></div>
         </div>
     </main>
-    <footer>sayfanın en alt kısmı (copy right, vs)</footer>
+    <footer>
+        <button> Previous </button>
+        <button>next</button>
+        <br>
+        <br>
+        sayfanın en alt kısmı (copy right, vs)
+
+    </footer>
 </body>
 
 </html>
